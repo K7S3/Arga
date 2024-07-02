@@ -1,0 +1,83 @@
+# .gitignore
+
+# Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Environment and package files
+.env
+.venv
+env/
+venv/
+*.env
+*.venv
+*.egg-info/
+dist/
+build/
+*.egg
+
+# macOS files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Log and binary files
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.seed
+
+# Machine Learning specific
+*.h5
+*.model
+*.pkl
+*.joblib
+*.json
+*.npy
+*.npz
+*.tfrecords
+*.ckpt
+*.tfevents
+*.pt
+*.pth
+*.tar
+*.onnx
+*.pb
+*.pbtxt
+*.prototxt
+*.weights
+*.params
+*.bin
+*.mat
+*.caffemodel
+*.solverstate
+*.blobs
+*.protobin
+*.solverstate
+*.index
+*.meta
+*.data-00000-of-00001
+*.events.*
+checkpoint
+model.ckpt*
+*.tfevents.*
+*.pkl
+*.pickle
+*.model
+*.pth.tar
+*.pth
+*.tar.gz
+*.tar
+
+# Data directories
+data/
+output/
