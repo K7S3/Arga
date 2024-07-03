@@ -26,5 +26,4 @@ def convert_xlsx_to_csv(xlsx_file_path: str, csv_file_path: str) -> None:
 
 
 if __name__ == "__main__":
-    convert_xlsx_to_csv("../data/raw/AI Test-1.xlsx", 
-                        "../data/raw/AI Test-1.csv")
+    convert_xlsx_to_csv("../data/raw/AI Test-1.xlsx", "../data/raw/AI Test-1.csv")
