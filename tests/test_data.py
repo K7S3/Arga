@@ -4,7 +4,10 @@ It tests the loading, cleaning, and transformation of data. This includes steps
 both before and after prediction.
 """
 import unittest
+import sys
 import pandas as pd
+
+sys.path.insert(0, '.') 
 
 
 class TestDataPreprocessing(unittest.TestCase):
