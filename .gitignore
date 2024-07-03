@@ -30,7 +30,6 @@ build/
 
 # Log and binary files
 *.log
-*.csv
 *.dat
 *.out
 *.pid

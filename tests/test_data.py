@@ -16,12 +16,12 @@ class TestDataPreprocessing(unittest.TestCase):
     """
 
     def setUp(self):
-        self.df = pd.read_csv("data/raw/AI Test-1.csv", header=None).T
+        self.df = pd.read_csv("./data/raw/AI Test-1.csv", header=None).T
         self.df.columns = ["time", "revenue"]
         self.df["time"] = self.df["time"].str.replace(".1", "")
         self.df["time"] = pd.to_datetime(self.df["time"])
         self.df["revenue"] = pd.to_numeric(self.df["revenue"])
-        self.predicted_df = pd.read_csv("data/predicted/AI Test-1.csv")
+        self.predicted_df = pd.read_csv("./data/predicted/AI Test-1.csv")
 
     def test_df_not_empty(self):
         """
