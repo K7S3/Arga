@@ -7,7 +7,7 @@ import unittest
 import sys
 import pandas as pd
 
-sys.path.insert(0, '.') 
+sys.path.insert(0, '.')
 
 
 class TestDataPreprocessing(unittest.TestCase):
