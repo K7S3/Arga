@@ -1,3 +1,7 @@
+"""
+This script converts a CSV file to an Excel file.
+"""
+
 import pandas as pd
 
 
@@ -20,7 +24,7 @@ def convert_csv_to_xlsx(csv_file_path: str, xlsx_file_path: str) -> None:
     data_csv.to_excel(xlsx_file_path, index=False)
 
 
-# Example usage:
-convert_csv_to_xlsx(
-    "../data/predicted/AI Test-1.csv", "../data/predicted/AI Test-1.xlsx"
-)
+if __name__ == "__main__":
+    convert_csv_to_xlsx(
+        "../data/predicted/AI Test-1.csv", "../data/predicted/AI Test-1.xlsx"
+    )
